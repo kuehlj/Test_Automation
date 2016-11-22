@@ -1,0 +1,70 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theprogrampdx.com/careers"
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//img"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Work smart and have a passion for creating? Apply to an open position, or drop us a note and tell us what's good."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Open Positions"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Digital Producer"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Senior Interactive Designer"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Digital Producer"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Senior Interactive Designer"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "How To Apply"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Open Positions"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Digital Producer"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Senior Interactive Designer"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 10
+}
