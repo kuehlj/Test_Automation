@@ -1,0 +1,81 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theprogrampdx.com/work"
+    },
+    {
+      "type": "setWindowSize",
+      "width": "2000",
+      "height": "2500000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Constantly curious, we solve creative challenges with technology, story and strategy."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Our latest work"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[3]/div[1]/a/div[2]/div"
+      }
+    },
+    {
+      "type": "assertTextPresent",
+      "text": "Nike Basketball"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "#LEDBYLIGHT"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nike Draw"
+    },
+    {
+      "type": "assertTextPresent",
+      "text": "Red Bull Sessions"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Night Sessions"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "All For The Game"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nike Maps"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Extend Your Day"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nike Running"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "FRESTcoast"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Nike Women's 15k Toronto"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
