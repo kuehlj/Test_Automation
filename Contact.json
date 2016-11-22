@@ -1,0 +1,59 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theprogrampdx.com/contact"
+    },
+    {
+      "type": "pause",
+      "waitTime": ""
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//img"
+      }
+    },
+    {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//img"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Say Hello. Pet some dogs. Play a game of ping-pong."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Drop In"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Stay Connected"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "New Business"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Follow Us"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The Program is an idea company"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
