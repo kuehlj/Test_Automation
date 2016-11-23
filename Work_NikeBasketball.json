@@ -53,12 +53,12 @@
       }
     },
     {
-      "type": "assertText",
+      "type": "verifyText",
       "locator": {
         "type": "xpath",
         "value": "//section[3]/div/div/h2"
       },
-      "text": ""
+      "text": "Going Above The Rim"
     },
     {
       "type": "assertElementPresent",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "type": "assertText",
+      "type": "verifyText",
       "locator": {
         "type": "xpath",
         "value": "//section[7]/div/div/h2"
@@ -132,7 +132,7 @@
       "text": "The Game Is to Be Told"
     },
     {
-      "type": "assertText",
+      "type": "verifyText",
       "locator": {
         "type": "xpath",
         "value": "//section[5]/div/div/h2"
