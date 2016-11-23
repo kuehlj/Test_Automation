@@ -30,46 +30,6 @@
     {
       "type": "assertTextPresent",
       "text": "Nike Basketball"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "#LEDBYLIGHT"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Nike Draw"
-    },
-    {
-      "type": "assertTextPresent",
-      "text": "Red Bull Sessions"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Night Sessions"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "All For The Game"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Nike Maps"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Extend Your Day"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Nike Running"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "FRESTcoast"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Nike Women's 15k Toronto"
     }
   ],
   "data": {
