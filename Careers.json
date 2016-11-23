@@ -37,6 +37,20 @@
       }
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[3]/div/div/ul/li[1]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[3]/div/div/ul/li[2]/a"
+      }
+    },
+    {
       "type": "verifyTextPresent",
       "text": "Digital Producer"
     },
