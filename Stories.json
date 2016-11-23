@@ -8,6 +8,13 @@
       "url": "http://www.theprogrampdx.com/stories"
     },
     {
+      "type": "verifyElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "image.preload-svg"
+      }
+    },
+    {
       "type": "verifyTextPresent",
       "text": "Tips for Creating Killer VR + 360 Video Experiences"
     },
@@ -24,10 +31,6 @@
         "type": "xpath",
         "value": "//section[1]/img[5]"
       }
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Night Sessions was deployed at the Outdoor Retailers Conference and has since been used by Ledlenser’s sales team to show buyers how powerful Ledlenser headlamps really are."
     },
     {
       "type": "verifyTextPresent",
