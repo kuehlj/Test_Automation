@@ -8,6 +8,11 @@
       "url": "http://www.theprogrampdx.com/work"
     },
     {
+      "type": "setWindowSize",
+      "width": "",
+      "height": "5000"
+    },
+    {
       "type": "verifyTextPresent",
       "text": "Constantly curious, we solve creative challenges with technology, story and strategy."
     },
@@ -34,8 +39,8 @@
       }
     },
     {
-      "type": "verifyTitle",
-      "title": "Nike Basketball  | The Program."
+      "type": "pause",
+      "waitTime": ""
     },
     {
       "type": "clickElement",
