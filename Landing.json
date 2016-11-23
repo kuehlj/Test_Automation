@@ -23,35 +23,18 @@
       }
     },
     {
-      "type": "assertText",
-      "locator": {
-        "type": "xpath",
-        "value": "//section[3]/div/div/h2"
-      },
-      "text": ""
-    },
-    {
-      "type": "assertText",
+      "type": "verifyElementPresent",
       "locator": {
         "type": "xpath",
         "value": "//section[@class='brand-partners-section']//h2[.='Brand Partners']"
-      },
-      "text": ""
+      }
     },
     {
-      "type": "assertElementPresent",
+      "type": "verifyElementPresent",
       "locator": {
         "type": "xpath",
         "value": "//section[@class='brand-partners-section']/div/div[2]/img"
       }
-    },
-    {
-      "type": "assertText",
-      "locator": {
-        "type": "xpath",
-        "value": "//section[5]/div/h2"
-      },
-      "text": ""
     },
     {
       "type": "clickElement",
@@ -98,12 +81,12 @@
       "url": "http://www.theprogrampdx.com/"
     },
     {
-      "type": "assertText",
+      "type": "verifyText",
       "locator": {
         "type": "xpath",
         "value": "//section[@class='capabilities-section']//h2[.='Capabilities']"
       },
-      "text": ""
+      "text": "Capabilities"
     },
     {
       "type": "assertElementPresent",
@@ -113,36 +96,36 @@
       }
     },
     {
-      "type": "assertText",
+      "type": "verifyText",
       "locator": {
         "type": "xpath",
         "value": "//section[@class='capabilities-section']//h3[.='Strategy']"
       },
-      "text": ""
+      "text": "strategy"
     },
     {
-      "type": "assertText",
+      "type": "verifyText",
       "locator": {
         "type": "xpath",
         "value": "//section[@class='capabilities-section']/div/div[6]/div[2]/div[2]/p"
       },
-      "text": ""
+      "text": "  We deliver immersive, sharable experiences that get people talking. Each touchpoint is meticulously planned to deliver maximal impact."
     },
     {
-      "type": "assertText",
+      "type": "verifyText",
       "locator": {
         "type": "xpath",
         "value": "//section[@class='capabilities-section']//li[.='Content']"
       },
-      "text": ""
+      "text": "Content"
     },
     {
-      "type": "assertText",
+      "type": "verifyText",
       "locator": {
         "type": "xpath",
         "value": "//section[8]/div/h2"
       },
-      "text": ""
+      "text": "We are thinkers, doers, builders, and ping-pongers."
     },
     {
       "type": "mouseOverElement",
