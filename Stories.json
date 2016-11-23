@@ -11,7 +11,7 @@
       "type": "verifyElementPresent",
       "locator": {
         "type": "css selector",
-        "value": "image.preload-svg"
+        "value": "html"
       }
     },
     {
@@ -38,6 +38,13 @@
     },
     {
       "type": "verifyElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[2]/img[2]"
+      }
+    },
+    {
+      "type": "assertElementPresent",
       "locator": {
         "type": "xpath",
         "value": "//section[2]/img[2]"
