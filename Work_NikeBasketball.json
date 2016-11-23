@@ -1,0 +1,149 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theprogrampdx.com/works/nike-basketball"
+    },
+    {
+      "type": "pause",
+      "waitTime": "7500"
+    },
+    {
+      "type": "setWindowSize",
+      "width": "2000",
+      "height": "200000"
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//img[1]"
+      }
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "css selector",
+        "value": "h2.italic.fade"
+      },
+      "text": "Nike Basketball"
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "img.preload.square-image"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "circle.play-btn-circle"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//img[3]"
+      }
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[3]/div/div/h2"
+      },
+      "text": ""
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//img[4]"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[4]/video"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "circle.play-btn-circle"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//img[5]"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[6]/div[1]/video"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[6]/div[2]/video"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//img[6]"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//img[7]"
+      }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[8]/div/h2"
+      }
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[7]/div/div/h2"
+      },
+      "text": "The Game Is to Be Told"
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[5]/div/div/h2"
+      },
+      "text": "Sweat the Details"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
