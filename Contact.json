@@ -48,6 +48,20 @@
     {
       "type": "verifyTextPresent",
       "text": "The Program is an idea company"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "svg.twitter"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "svg.instagram"
+      }
     }
   ],
   "data": {
