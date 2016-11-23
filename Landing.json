@@ -9,10 +9,151 @@
     },
     {
       "type": "clickElement",
+      "step_name": "2.",
       "locator": {
         "type": "css selector",
-        "value": "play-btn-circle"
+        "value": "circle.play-btn-circle"
       }
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "css selector",
+        "value": "h2.italic.fade"
+      }
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[3]/div/div/h2"
+      },
+      "text": ""
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='brand-partners-section']//h2[.='Brand Partners']"
+      },
+      "text": ""
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='brand-partners-section']/div/div[2]/img"
+      }
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[5]/div/h2"
+      },
+      "text": ""
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[6]/div[1]/a/div[2]/div/h2"
+      }
+    },
+    {
+      "type": "get",
+      "url": "http://www.theprogrampdx.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[6]/div[2]/a/div[2]/div/h2"
+      }
+    },
+    {
+      "type": "get",
+      "url": "http://www.theprogrampdx.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[6]/div[3]/a/div[2]/div/h2"
+      }
+    },
+    {
+      "type": "get",
+      "url": "http://www.theprogrampdx.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[6]/div[4]/a/div[2]/div/h2"
+      }
+    },
+    {
+      "type": "get",
+      "url": "http://www.theprogrampdx.com/"
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='capabilities-section']//h2[.='Capabilities']"
+      },
+      "text": ""
+    },
+    {
+      "type": "assertElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='capabilities-section']/div/div[2]/div[2]/div[1]/img"
+      }
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='capabilities-section']//h3[.='Strategy']"
+      },
+      "text": ""
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='capabilities-section']/div/div[6]/div[2]/div[2]/p"
+      },
+      "text": ""
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[@class='capabilities-section']//li[.='Content']"
+      },
+      "text": ""
+    },
+    {
+      "type": "assertText",
+      "locator": {
+        "type": "xpath",
+        "value": "//section[8]/div/h2"
+      },
+      "text": ""
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "h4.name"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ethan Smith-Gillespie"
     }
   ],
   "data": {
