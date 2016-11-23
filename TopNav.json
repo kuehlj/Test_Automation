@@ -50,8 +50,8 @@
       }
     },
     {
-      "type": "verifyTextPresent",
-      "text": "The Program is an idea company"
+      "type": "verifyTitle",
+      "title": "Studio | The Program: We create digital experiences for lifestyle brands that lead."
     }
   ],
   "data": {
