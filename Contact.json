@@ -62,6 +62,35 @@
         "type": "css selector",
         "value": "svg.instagram"
       }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "business@theprogrampdx.com"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "studio@theprogrampdx.com"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "503.616.3742"
+      }
+    },
+    {
+      "type": "verifyText",
+      "locator": {
+        "type": "css selector",
+        "value": "p"
+      },
+      "text": "1430 SE 3rd Ave, #250 Portland, OR 97214"
     }
   ],
   "data": {
