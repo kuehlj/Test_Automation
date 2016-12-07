@@ -62,6 +62,27 @@
         "type": "css selector",
         "value": "div.start-sprinting-link"
       }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='sprint']/div[2]/div[2]/div/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "SKIP THIS VIDEO"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.back-to-top-link"
+      }
     }
   ],
   "data": {
