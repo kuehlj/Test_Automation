@@ -14,8 +14,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//a[@class='skip-link']"
+        "type": "css selector",
+        "value": "a.play-btn"
       }
     },
     {
