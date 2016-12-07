@@ -21,8 +21,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "SKIP THIS VIDEO"
+        "type": "css selector",
+        "value": "a.skip-link"
       }
     },
     {
