@@ -6,6 +6,34 @@
     {
       "type": "get",
       "url": "http://eyn-stage.theprogrampdx.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.play-btn"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "SKIP THIS VIDEO"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Why Do I Need To Connect To Strava?"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.x"
+      }
     }
   ],
   "data": {
