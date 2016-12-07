@@ -8,6 +8,10 @@
       "url": "http://eyn-stage.theprogrampdx.com/"
     },
     {
+      "type": "pause",
+      "waitTime": "500"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
