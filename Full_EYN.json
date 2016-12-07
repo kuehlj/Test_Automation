@@ -19,6 +19,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "500"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -26,11 +30,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "500"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
         "value": "Why Do I Need To Connect To Strava?"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "500"
     },
     {
       "type": "clickElement",
