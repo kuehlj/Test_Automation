@@ -15,7 +15,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.skip-link"
+        "value": "a.play-btn"
       }
     },
     {
