@@ -34,6 +34,34 @@
         "type": "css selector",
         "value": "div.x"
       }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.start-climbing-link"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='climb']/div[2]/div[2]/div/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "SKIP THIS VIDEO"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.start-sprinting-link"
+      }
     }
   ],
   "data": {
